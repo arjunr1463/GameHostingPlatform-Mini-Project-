@@ -1,0 +1,334 @@
+.gamepage {
+  color: white;
+  margin-top: 120px;
+  margin-left: auto;
+  width: 90%;
+  margin-right: auto;
+}
+
+.infoimage {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  height: 480px;
+  width: 380px;
+  margin-bottom: 20px;
+}
+
+.nogamepage {
+  background-color: black;
+  margin-top: 120px;
+  margin-left: auto;
+  width: 100%;
+  margin-right: auto;
+}
+
+.nopaymentSpinner {
+  z-index: -1;
+  display: none;
+}
+
+.spinnerContainer {
+  position: absolute;
+  z-index: 100;
+  width: 80%;
+  background: none;
+  margin-top: 300px;
+  text-align: center;
+}
+
+.short_desc {
+  width: fit-content;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  overflow-wrap: break-word;
+}
+
+p > img {
+  height: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.gamedescription {
+  padding: 10px;
+  margin-top: 70px;
+  text-overflow: inherit;
+  line-height: 25px;
+}
+
+.gamedescription > p > .markdown > h1 {
+  margin-bottom: 20px;
+  font-weight: 800;
+  color: rgb(187, 24, 24);
+  font-size: 35px;
+}
+
+.gamedescription > p > .markdown > p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.gamedescription > p > .markdown > div {
+  background-color: rgb(29, 29, 29);
+}
+
+.mainsection {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(32, 32, 32);
+}
+
+.tagContainer_ {
+  display: flex;
+  margin-top: 20px;
+  width: fit-content;
+  text-align: center;
+}
+
+.tagContainer_ > .platform {
+  background-color: rgb(17, 102, 17);
+  letter-spacing: 0.5;
+  width: 100px;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 2px;
+  color: white;
+}
+
+.tagContainer_ > .category {
+  background-color: rgb(173, 18, 18);
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.5;
+  margin-right: 10px;
+  width: 100px;
+  font-size: 15px;
+  border-radius: 2px;
+}
+
+code {
+  background-color: rgb(15, 15, 15);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Ubuntu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.hline {
+  height: 3px;
+  background-color: rgb(105, 16, 16);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.downloadbtn {
+  width: 130px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 50px;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: rgb(110, 7, 7);
+}
+
+.downloadbtn:hover {
+  background-color: red;
+}
+
+.gameinfo2 > * {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.gameInformation {
+  display: flex;
+  width: 100%;
+  margin-left: 40px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.gameInformation > h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.gameInformation > h3 {
+  font-weight: 400;
+}
+
+.downloadIcon {
+  color: white !important;
+  cursor: pointer;
+  font-size: 30px !important;
+}
+
+.buttongroup {
+  margin-top: 20px;
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment {
+  width: 100%;
+  border-radius: 10px;
+  height: fit-content;
+  padding: 13px;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+  background-color: rgb(26, 26, 26);
+}
+
+.comment:hover {
+  background-color: rgb(32, 32, 32);
+}
+
+.header_ {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment > * {
+  color: white;
+}
+
+.comment_user {
+  width: fit-content;
+  color: red;
+  font-weight: 400;
+}
+
+.ocomment {
+  margin-top: 7px;
+}
+
+.buttongroup > div {
+  display: flex;
+  align-items: center;
+}
+
+.buttongroup > div > p {
+  margin-right: 20px;
+  margin-left: 2px;
+}
+
+.commentInput {
+  margin-top: 40px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.commentInput > input {
+  width: 90%;
+  height: 40px;
+  margin-right: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding: 8px;
+}
+
+.showComments {
+  margin-top: 20px;
+  height: 400px;
+  overflow-y: scroll;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.showComments::-webkit-scrollbar {
+  display: none;
+}
+
+.commentInput > button {
+  width: 100px;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: rgb(110, 7, 7);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.commentInput > button:hover {
+  background-color: red;
+}
+
+@media (max-width: 1060px) {
+  .infoimage {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    height: 330px;
+    width: 270px;
+    margin-bottom: 20px;
+  }
+
+  p > img {
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+
+  .mainsection {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 32);
+  }
+
+  .gameInformation {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .buttongroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 460px) {
+  .gamedescription > p > .markdown > h1 {
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: rgb(187, 24, 24);
+    font-size: 32px;
+  }
+
+  .gamedescription > p > .markdown > p {
+    margin-bottom: 30px;
+    font-size: 17px;
+  }
+
+  .gamedescription > p > .markdown > div {
+    background-color: rgb(26, 26, 26);
+  }
+}

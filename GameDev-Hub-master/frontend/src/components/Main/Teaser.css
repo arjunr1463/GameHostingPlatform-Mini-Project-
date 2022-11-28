@@ -1,0 +1,48 @@
+.videodropzone {
+  width: 80%;
+  margin-right: auto;
+  border-radius: 10px;
+  height: 200px;
+  margin-left: auto;
+  border: darkgray dashed 3px;
+}
+
+.droparea {
+  width: 80%;
+  margin-left: auto;
+  cursor: pointer;
+  margin-right: auto;
+  border: dashed darkgray 2px;
+  opacity: 0.7;
+}
+
+.droparea:hover {
+  opacity: 1;
+}
+
+.teaser {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.videodropzone > h2 {
+  color: darkgray;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.imagedropzone {
+  width: 80%;
+  margin-right: auto;
+  border-radius: 10px;
+  height: 200px;
+  margin-left: auto;
+  border: darkgray dashed 3px;
+}
+
+.imagedropzone > h2 {
+  color: darkgray;
+  text-align: center;
+  margin-top: 70px;
+}

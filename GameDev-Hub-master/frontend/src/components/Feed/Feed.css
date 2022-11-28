@@ -1,0 +1,62 @@
+.feed {
+    width: 100%;
+}
+
+.feedContainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+.feedContainer > .eachNews {
+    width: 90%;
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: auto;
+    background-color: rgb(22, 22, 22);
+    height: fit-content;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.eachNews > h2 {
+    color: red;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.eachNews > h4 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.eachNews > button {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 110px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(141, 12, 12);
+}
+
+.sourcelink {
+    color: rgb(189, 22, 22) !important;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.eachNews > button:hover {
+    background-color: red;
+}

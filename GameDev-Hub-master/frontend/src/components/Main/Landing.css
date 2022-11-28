@@ -1,0 +1,260 @@
+.trendingrow {
+  display: flex;
+  width: 95%;
+  margin-left: auto;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: auto;
+  cursor: pointer;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  height: fit-content;
+  overflow-x: scroll;
+}
+
+.banner {
+  width: 100%;
+  margin-left: auto;
+  background-color: black;
+  margin-right: auto;
+}
+
+.eachUpcoming {
+  border-radius: 10px;
+  width: 260px;
+  margin-right: 20px;
+}
+
+.trailer_view > button {
+  border: none;
+  outline: none;
+  width: 120px;
+  color: white;
+  font-size: 16px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: rgb(92, 4, 4);
+}
+
+.trailer_view > button:hover {
+  background-color: red;
+}
+
+.upcomingreleases {
+  padding: 5px;
+  display: flex;
+  border-radius: 10px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  cursor: pointer;
+  height: fit-content;
+  overflow-x: scroll;
+}
+
+.upcoming_img {
+  height: 320px;
+  padding: 10px;
+  width: 270px;
+  border-radius: 10px;
+  transition: ease-in 0.2s;
+}
+
+.upcoming_img:hover {
+  transform: scale(1.02);
+}
+
+.upcoming {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.eachTrending:hover {
+  transform: scale(1.02);
+}
+
+.eachfav:hover {
+  transform: scale(1.02);
+}
+
+.eachTrailer:hover {
+  transform: scale(1.02);
+}
+
+.upcomingrelease_img:hover {
+  transform: scale(1.02);
+}
+
+.banner_img {
+  width: 100%;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  transition: ease-in 0.4s;
+  opacity: 1;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  height: 700px;
+}
+
+.banner_img:hover {
+  opacity: 1;
+}
+
+.upcomingreleases::-webkit-scrollbar {
+  display: none;
+}
+
+.trendingrow::-webkit-scrollbar {
+  display: none;
+}
+
+.trendingrow > img {
+  display: flex;
+}
+.trendingrow {
+  text-align: center;
+}
+
+.textContain {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.upload_form {
+  margin-top: 40px;
+}
+
+.trailers_row::-webkit-scrollbar {
+  display: none;
+}
+
+.eachTrending {
+  border-radius: 10px;
+  text-align: center;
+  height: fit-content;
+  margin-right: 20px;
+  transition: ease-in 0.2s;
+  width: fit-content;
+}
+
+.eachfav {
+  border-radius: 10px;
+  transition: ease-in 0.2s;
+  margin-right: 20px;
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+}
+
+.eachfav_ {
+  margin-top: 5px;
+}
+
+.favsrow {
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  width: 95%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  cursor: pointer;
+  height: fit-content;
+  overflow-x: scroll;
+}
+
+.trailerinfo > h2 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.trailerinfo > h4 {
+  height: 115px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.trailerinfo > h2 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.trailerinfo {
+  padding: 20px;
+  width: 300px;
+}
+
+.eachTrailer {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  margin-right: 20px;
+  display: flex;
+  transition: ease-in 0.2s;
+  color: white;
+}
+
+.eachTrailer > img {
+  width: 260px;
+  height: 330px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.trailers_row {
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  cursor: pointer;
+  height: fit-content;
+  overflow-x: scroll;
+}
+
+.trailers_row::-webkit-scrollbar {
+  display: none;
+}
+
+.favsrow::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .banner_img {
+    width: 100%;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    transition: ease-in 0.4s;
+    height: 400px;
+  }
+
+  .banner {
+    margin-top: 80px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .eachTrending {
+    height: 320px;
+  }
+
+  .eachfav {
+    height: 320px;
+  }
+}

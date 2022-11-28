@@ -1,0 +1,15 @@
+.trending_images {
+  height: 350px;
+  width: 270px;
+  border-radius: 10px;
+  transition: ease-in 0.1s;
+}
+
+@media (max-width: 500px) {
+  .trending_images {
+    height: 260px;
+    width: 230px;
+    border-radius: 10px;
+    transition: ease-in 0.1s;
+  }
+}

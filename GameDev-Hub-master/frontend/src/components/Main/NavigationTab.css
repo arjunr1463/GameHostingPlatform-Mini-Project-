@@ -1,0 +1,162 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  position: fixed;
+  opacity: 0.95;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  align-items: center;
+  background-color: rgb(29, 29, 29);
+}
+
+.nav__options {
+  display: flex;
+  width: 800px;
+  justify-content: space-evenly;
+  padding: 10px;
+  align-items: center;
+  height: 60px;
+}
+
+.optionh4 {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.redcolor {
+  color: red;
+}
+
+.options_active {
+  background-color: rgb(12, 12, 12);
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: red;
+  width: 130px;
+  text-align: center;
+}
+
+.options_active:hover {
+  opacity: 0.7;
+}
+
+.options_ {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 130px;
+  text-align: center;
+}
+
+.options_:hover {
+  background-color: rgb(12, 12, 12);
+
+  opacity: 0.7;
+}
+
+.logoContainer {
+  text-decoration: none;
+
+}
+
+.logo {
+  margin-left: 10px;
+  font-weight: 800;
+  font-family: 'Goldman', cursive;
+  font-size: 40px !important;
+  color: rgb(255, 0, 0);
+}
+
+@media (max-width: 930px) {
+  .close {
+    margin-top: 4px;
+    cursor: pointer;
+    color: white;
+    margin-left: 5px;
+  }
+
+  .options {
+    color: white;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .option {
+    color: white;
+    height: 30px;
+    text-align: center;
+  }
+
+  .option:hover {
+    color: red;
+  }
+
+  .options:hover {
+    color: red;
+  }
+
+  .burger {
+    height: 38px;
+    display: flex;
+    margin-left: 10px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 38px;
+  }
+
+  .expanded_nav > * {
+    margin-bottom: 20px;
+  }
+
+  .expanded_nav {
+    margin-top: 240px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(20, 20, 20);
+  }
+
+  .one,
+  .two,
+  .three {
+    height: 5px;
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: flex-start;
+    height: 60px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+  }
+
+  .logo {
+    display: none;
+  }
+  .nav__options {
+    display: none;
+  }
+
+  .optionh4 {
+    display: none;
+  }
+
+  .options_ {
+    display: none;
+  }
+}

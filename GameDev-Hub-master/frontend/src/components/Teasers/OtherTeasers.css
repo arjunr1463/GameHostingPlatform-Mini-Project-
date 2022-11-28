@@ -1,0 +1,94 @@
+.otherteasers {
+  text-align: center;
+  color: white;
+}
+
+.teaserinfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.horizline {
+  height: 3px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 80%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trailervideo {
+  width: 80%;
+  -webkit-box-shadow: 1px 1px 12px 2px rgb(15, 15, 15); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 1px 1px 12px 2px rgb(15, 15, 15); /* Firefox 3.5 - 3.6 */
+  box-shadow: 1px 1px 12px 2px rgb(17, 17, 17); /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  margin-top: 20px;
+  transition: ease-in 0.3s;
+  margin-left: auto;
+  margin-right: auto;
+  height: 720px;
+}
+
+.trailervideo:hover {
+  transform: scale(1.02);
+}
+
+.teaserdescription {
+  width: 80%;
+  border-radius: 10px;
+  margin-bottom: 80px;
+  background-color: rgb(15, 15, 15);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.teaserdescription > h3 {
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.gameteaser2 {
+  padding: 20px;
+}
+
+.earlypics {
+  display: flex;
+  text-align: center;
+  border-radius: 10px;
+  width: 80%;
+  overflow-x: scroll;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: rgb(15, 15, 15);
+}
+
+.earlypics::-webkit-scrollbar {
+  display: none;
+}
+
+.pics {
+  height: 300px;
+  margin-right: 20px;
+  width: 400px;
+}
+
+@media (max-width: 600px) {
+  .trailervideo {
+    width: 90%;
+    -webkit-box-shadow: 1px 1px 12px 2px rgb(15, 15, 15); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 1px 1px 12px 2px rgb(15, 15, 15); /* Firefox 3.5 - 3.6 */
+    box-shadow: 1px 1px 12px 2px rgb(17, 17, 17); /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 420px;
+  }
+
+  .mainsection {
+    height: fit-content;
+  }
+}
